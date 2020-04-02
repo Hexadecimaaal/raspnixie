@@ -3,7 +3,7 @@
 <eagle version="9.6.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -123,55 +123,6 @@
 </polygon>
 </plain>
 <libraries>
-<library name="74xx-eu" urn="urn:adsk.eagle:library:85">
-<description>&lt;b&gt;TTL Devices, 74xx Series with European Symbols&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Texas Instruments &lt;i&gt;TTL Data Book&lt;/i&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;Volume 1, 1996.
-&lt;li&gt;TTL Data Book, Volume 2 , 1993
-&lt;li&gt;National Seminconductor Databook 1990, ALS/LS Logic
-&lt;li&gt;ttl 74er digital data dictionary, ECA Electronic + Acustic GmbH, ISBN 3-88109-032-0
-&lt;li&gt;http://icmaster.com/ViewCompare.asp
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DIL16" urn="urn:adsk.eagle:footprint:917/1" library_version="5">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="10.16" y1="2.921" x2="-10.16" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-10.16" y1="-2.921" x2="10.16" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="10.16" y1="2.921" x2="10.16" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-10.16" y1="2.921" x2="-10.16" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-10.16" y1="-2.921" x2="-10.16" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-10.16" y1="1.016" x2="-10.16" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="11" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="12" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="13" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="14" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="15" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="16" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-10.541" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-7.493" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="DIL16" urn="urn:adsk.eagle:package:922/2" type="model" library_version="5">
-<description>Dual In Line Package</description>
-<packageinstances>
-<packageinstance name="DIL16"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="raspnixie">
 <packages>
 <package name="ZM1000">
@@ -210,64 +161,6 @@ not many in the world.</description>
 <text x="0" y="9.285" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-9.285" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-</packages>
-<packages3d>
-<package3d name="RESM175170X700N" urn="urn:adsk.eagle:package:18776585/1" type="model">
-<description>Molded Body, 17.50 X 17.00 X 7.00 mm body
-&lt;p&gt;Molded Body package with body size 17.50 X 17.00 X 7.00 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="RESM175170X700N"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="raspberrypi_bastelstube_v13">
-<description>&lt;b&gt;Raspberry Pi&lt;/b&gt; by &lt;b&gt;Martin's Bastelstube&lt;/b&gt;
-&lt;p&gt;
-Different shapes of piggyback boards for the famous &amp;amp; fabulous
-&lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; computer.
-&lt;p&gt;
-The outline of the Raspberry Pi board is drawn on layer 52 bDocu, so you can make it invisible if necessary.&lt;br/&gt;
-Recommendation: Start your design with RASPI_BOARD_*_FULL, so you are aware of all the big components and
-connectors when you're drawing the dimensions of your board and placing your own components.&lt;br/&gt;
-Later, you can simply change the package of your Raspberry Pi connector to the RASPI_BOARD_*_EDGES type,
-so you can concentrate on your own design.
-&lt;p&gt;
-Most of my board packages don't have the outline drawn in layer 20 Dimension (except the HATs). This allows you to deviate from the original Raspberry Pi board shape, e.g. when you need more space behind the GPIO connector for the routing of the power supply lines. If you want to stick exactly to the Raspberry Pi board shape, then just draw the Dimension layer right on the lines in layer bDocu.
-
-&lt;hr&gt;&lt;br/&gt;
-
-Version 1.3
-&lt;ul&gt;
-&lt;li&gt;Added the shape and dimensions of the HAT board with &amp;amp; without the camera and display flex cutout&lt;/li&gt;
-&lt;li&gt;New GPIO connector version (suffix &amp;quot;#&amp;quot;) with all pins connected (no more &amp;quot;n.c.&amp;quot; pins)&lt;/li&gt;
-&lt;li&gt;Two more &amp;quot;AB-&amp;quot; boards with 5 and 6 drill holes / pads, mechanically compatible with all RasPi versions&lt;/li&gt;
-&lt;/ul&gt;
-
-Version 1.2
-&lt;ul&gt;
-&lt;li&gt;Added a 26-pin GPIO connector with board dimensions of model B+&lt;br/&gt;
-       for backwards compatibility with models A and B, named &amp;quot;B-&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-
-Version 1.1
-&lt;ul&gt;
-&lt;li&gt;New GPIO connector and board dimensions of model B+&lt;/li&gt;
-&lt;li&gt;Old connector and board (for models A and B) renamed to AB&lt;/li&gt;
-&lt;li&gt;GPIO pin numbers on connector changed to match Rev2 board design&lt;/li&gt;
-&lt;/ul&gt;
-
-Version 1.0
-&lt;ul&gt;
-&lt;li&gt;More detailed descriptions for all components&lt;/li&gt;
-&lt;li&gt;Published on Cadsoft webpage&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;&lt;br/&gt;
-
-Designed by &lt;a href="http://bastelstube.rocci.net/"&gt;Martin's Bastelstube&lt;/a&gt;&lt;br&gt;
-Comments / complaints / bug reports / suggestions to &lt;author&gt;eightbit@web.de&lt;/author&gt;</description>
-<packages>
 <package name="RASPI_BOARD_B+_EDGES_3DRILL">
 <description>Raspberry Pi board model B+, outline is only marked by its edges&lt;br&gt;
 with 3 drill holes (top left hole is missing to allow routing of power supply lines)</description>
@@ -336,10 +229,67 @@ with 3 drill holes (top left hole is missing to allow routing of power supply li
 <circle x="61.5" y="3.5" radius="3.1" width="0.127" layer="52"/>
 <circle x="61.5" y="52.5" radius="3.1" width="0.127" layer="52"/>
 </package>
-</packages>
-</library>
-<library name="MAX1771CPA">
-<packages>
+<package name="S64W-ROUND">
+<description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
+Spectrol</description>
+<wire x1="-4.826" y1="-1.27" x2="4.826" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="0.508" x2="3.048" y2="-0.508" width="0.3048" layer="21"/>
+<wire x1="-4.826" y1="3.81" x2="4.826" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="3.81" x2="4.826" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="-1.27" x2="-4.826" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="0" x2="-2.413" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0" x2="-2.159" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0" x2="-2.159" y2="0.127" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="-0.254" x2="-2.286" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="-0.254" x2="-2.413" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="0.254" x2="-2.413" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="-0.127" x2="-2.159" y2="0.127" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="-0.127" x2="-2.286" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="0.127" x2="-2.286" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="0" x2="-2.413" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="-0.381" x2="-2.413" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.413" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="0.381" x2="-2.54" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="0" x2="-2.413" y2="0" width="0.1524" layer="51"/>
+<circle x="3.556" y="0" radius="0.889" width="0.1524" layer="51"/>
+<circle x="3.556" y="0" radius="0.635" width="0.0508" layer="21"/>
+<pad name="A" x="2.54" y="1.27" drill="0.8128" rot="R90"/>
+<pad name="E" x="-2.54" y="1.27" drill="0.8128" rot="R90"/>
+<pad name="S" x="0" y="1.27" drill="0.8128" rot="R90"/>
+<text x="-4.826" y="4.1402" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.8006" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.445" y="1.905" size="1.27" layer="21" ratio="10">3</text>
+<text x="3.556" y="1.905" size="1.27" layer="21" ratio="10">1</text>
+<text x="-1.905" y="-0.635" size="1.27" layer="51" ratio="10">3</text>
+</package>
+<package name="DIL16" urn="urn:adsk.eagle:footprint:917/1">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="10.16" y1="2.921" x2="-10.16" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-2.921" x2="10.16" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="2.921" x2="10.16" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="2.921" x2="-10.16" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-2.921" x2="-10.16" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="1.016" x2="-10.16" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-10.541" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-7.493" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 <package name="DIP794W47P254L991H457Q8">
 <circle x="-5.075" y="3.81" radius="0.1" width="0.2" layer="21"/>
 <circle x="-5.075" y="3.81" radius="0.1" width="0.2" layer="51"/>
@@ -365,6 +315,21 @@ with 3 drill holes (top left hole is missing to allow routing of power supply li
 <pad name="8" x="3.97" y="3.81" drill="0.86" diameter="1.21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="RESM175170X700N" urn="urn:adsk.eagle:package:18776585/1" type="model">
+<description>Molded Body, 17.50 X 17.00 X 7.00 mm body
+&lt;p&gt;Molded Body package with body size 17.50 X 17.00 X 7.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESM175170X700N"/>
+</packageinstances>
+</package3d>
+<package3d name="DIL16" urn="urn:adsk.eagle:package:922/2" type="model">
+<description>Dual In Line Package</description>
+<packageinstances>
+<packageinstance name="DIL16"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
@@ -1535,70 +1500,6 @@ Metric Code Size 3216</description>
 </package3d>
 </packages3d>
 </library>
-<library name="Transistor" urn="urn:adsk.eagle:library:16378713">
-<description>&lt;B&gt;BJT, JFET, MOSFET, UJT, Darlington</description>
-<packages>
-<package name="TO220BV" urn="urn:adsk.eagle:footprint:29371/1" library_version="3">
-<description>&lt;b&gt;Molded Package&lt;/b&gt;&lt;p&gt;
-grid 2.54 mm</description>
-<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
-<circle x="-4.4958" y="-3.7084" radius="0.254" width="0" layer="21"/>
-<pad name="G" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="D" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="S" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
-<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
-<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
-<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
-<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
-<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
-<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
-<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
-</package>
-<package name="TO92" urn="urn:adsk.eagle:footprint:28459/1" library_version="3">
-<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.127" layer="21" curve="-32.781"/>
-<wire x1="-2.6549" y1="-0.254" x2="-0.7863" y2="2.5485" width="0.127" layer="21" curve="-78.3185"/>
-<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.127" layer="21" curve="-111.1"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-2.2537" y1="-0.254" x2="-0.2863" y2="-0.254" width="0.127" layer="51"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="0.2863" y1="-0.254" x2="2.2537" y2="-0.254" width="0.127" layer="51"/>
-<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.127" layer="51" curve="-34.2936"/>
-<pad name="1" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
-<pad name="3" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-0.635" y="0.635" size="1.27" layer="51" ratio="10">2</text>
-<text x="-2.159" y="0" size="1.27" layer="51" ratio="10">3</text>
-<text x="1.143" y="0" size="1.27" layer="51" ratio="10">1</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="TO220BV" urn="urn:adsk.eagle:package:29484/3" type="model" library_version="3">
-<description>Molded Package
-grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TO220BV"/>
-</packageinstances>
-</package3d>
-<package3d name="TO92" urn="urn:adsk.eagle:package:16378726/1" type="model" library_version="3">
-<description>TO 92</description>
-<packageinstances>
-<packageinstance name="TO92"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="diode" urn="urn:adsk.eagle:library:210">
 <description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
@@ -1674,46 +1575,78 @@ Based on the following sources:
 </package3d>
 </packages3d>
 </library>
-<library name="pot-hex">
-<description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
-Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
+<library name="transistor-power" urn="urn:adsk.eagle:library:400">
+<description>&lt;b&gt;Power Transistors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="S64W-ROUND">
-<description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
-Spectrol</description>
-<wire x1="-4.826" y1="-1.27" x2="4.826" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="4.064" y1="0.508" x2="3.048" y2="-0.508" width="0.3048" layer="21"/>
-<wire x1="-4.826" y1="3.81" x2="4.826" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="3.81" x2="4.826" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-4.826" y1="-1.27" x2="-4.826" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="0" x2="-2.413" y2="0" width="0.1524" layer="51"/>
-<wire x1="-2.032" y1="0" x2="-2.159" y2="-0.127" width="0.1524" layer="51"/>
-<wire x1="-2.032" y1="0" x2="-2.159" y2="0.127" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="-0.254" x2="-2.286" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="-0.254" x2="-2.413" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="0.254" x2="-2.413" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-2.159" y1="-0.127" x2="-2.159" y2="0.127" width="0.1524" layer="51"/>
-<wire x1="-2.159" y1="-0.127" x2="-2.286" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-2.159" y1="0.127" x2="-2.286" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-2.413" y1="0" x2="-2.413" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-2.413" y1="-0.381" x2="-2.413" y2="0" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.413" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-2.413" y1="0.381" x2="-2.54" y2="0.508" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="-4.318" y1="0" x2="-2.413" y2="0" width="0.1524" layer="51"/>
-<circle x="3.556" y="0" radius="0.889" width="0.1524" layer="51"/>
-<circle x="3.556" y="0" radius="0.635" width="0.0508" layer="21"/>
-<pad name="A" x="2.54" y="1.27" drill="0.8128" rot="R90"/>
-<pad name="E" x="-2.54" y="1.27" drill="0.8128" rot="R90"/>
-<pad name="S" x="0" y="1.27" drill="0.8128" rot="R90"/>
-<text x="-4.826" y="4.1402" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.8006" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.445" y="1.905" size="1.27" layer="21" ratio="10">3</text>
-<text x="3.556" y="1.905" size="1.27" layer="21" ratio="10">1</text>
-<text x="-1.905" y="-0.635" size="1.27" layer="51" ratio="10">3</text>
+<package name="TO220BV" urn="urn:adsk.eagle:footprint:29371/1" library_version="4">
+<description>&lt;b&gt;Molded Package&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm</description>
+<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
+<circle x="-4.4958" y="-3.7084" radius="0.254" width="0" layer="21"/>
+<pad name="G" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="D" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="S" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
+<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
+<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
+<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
+<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
+<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
+<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="TO220BV" urn="urn:adsk.eagle:package:29484/3" type="model" library_version="4">
+<description>Molded Package
+grid 2.54 mm</description>
+<packageinstances>
+<packageinstance name="TO220BV"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="transistor" urn="urn:adsk.eagle:library:402">
+<description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TO92" urn="urn:adsk.eagle:footprint:28459/1" library_version="6">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.127" layer="21" curve="-32.781"/>
+<wire x1="-2.6549" y1="-0.254" x2="-0.7863" y2="2.5485" width="0.127" layer="21" curve="-78.3185"/>
+<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.127" layer="21" curve="-111.1"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-2.2537" y1="-0.254" x2="-0.2863" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="0.2863" y1="-0.254" x2="2.2537" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.127" layer="51" curve="-34.2936"/>
+<pad name="1" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
+<pad name="3" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="1.27" layer="51" ratio="10">2</text>
+<text x="-2.159" y="0" size="1.27" layer="51" ratio="10">3</text>
+<text x="1.143" y="0" size="1.27" layer="51" ratio="10">1</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TO92" urn="urn:adsk.eagle:package:28523/2" type="model" library_version="6">
+<description>TO 92</description>
+<packageinstances>
+<packageinstance name="TO92"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -1911,10 +1844,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="X1" library="raspberrypi_bastelstube_v13" package="RASPI_BOARD_B+_EDGES_3DRILL" value="RASPI_BOARD_B+#_E3" x="1.27" y="1.27" smashed="yes">
+<element name="X1" library="raspnixie" package="RASPI_BOARD_B+_EDGES_3DRILL" value="RASPI_BOARD_B+#_E3" x="1.27" y="1.27" smashed="yes">
 <attribute name="SPICEPREFIX" value="X" x="1.27" y="1.27" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC1" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74141N" x="21.59" y="19.05" smashed="yes">
+<element name="IC1" library="raspnixie" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74141N" x="21.59" y="19.05" smashed="yes">
 <attribute name="NAME" x="11.176" y="17.399" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="21.59" y="34.29" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="14.097" y="18.415" size="1.27" layer="27" ratio="10"/>
@@ -1922,7 +1855,7 @@ design rules under a new name.</description>
 <element name="U1" library="raspnixie" package="ZM1000" value="ZM1000" x="10.16" y="41.91" smashed="yes">
 <attribute name="NAME" x="4.445" y="36.195" size="1.27" layer="21"/>
 </element>
-<element name="IC2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74141N" x="21.59" y="7.62" smashed="yes">
+<element name="IC2" library="raspnixie" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74141N" x="21.59" y="7.62" smashed="yes">
 <attribute name="NAME" x="11.176" y="5.969" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="21.59" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="14.097" y="6.985" size="1.27" layer="27" ratio="10"/>
@@ -1930,7 +1863,7 @@ design rules under a new name.</description>
 <element name="U2" library="raspnixie" package="ZM1000" value="ZM1000" x="28.575" y="41.91" smashed="yes">
 <attribute name="NAME" x="22.86" y="36.195" size="1.27" layer="21"/>
 </element>
-<element name="IC3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74141N" x="45.72" y="19.05" smashed="yes">
+<element name="IC3" library="raspnixie" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74141N" x="45.72" y="19.05" smashed="yes">
 <attribute name="NAME" x="35.306" y="17.399" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="45.72" y="33.02" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="38.227" y="18.415" size="1.27" layer="27" ratio="10"/>
@@ -1938,7 +1871,7 @@ design rules under a new name.</description>
 <element name="U3" library="raspnixie" package="ZM1000" value="ZM1000" x="46.99" y="41.91" smashed="yes">
 <attribute name="NAME" x="41.91" y="36.195" size="1.27" layer="21"/>
 </element>
-<element name="IC4" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74141N" x="45.72" y="7.62" smashed="yes">
+<element name="IC4" library="raspnixie" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74141N" x="45.72" y="7.62" smashed="yes">
 <attribute name="NAME" x="35.306" y="5.969" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="38.227" y="6.985" size="1.27" layer="27" ratio="10"/>
@@ -1946,7 +1879,7 @@ design rules under a new name.</description>
 <element name="U4" library="raspnixie" package="ZM1000" value="ZM1000" x="65.405" y="41.91" smashed="yes">
 <attribute name="NAME" x="60.325" y="36.195" size="1.27" layer="21"/>
 </element>
-<element name="IC5" library="MAX1771CPA" package="DIP794W47P254L991H457Q8" value="MAX1771CPA+" x="63.5" y="19.05" smashed="yes" rot="R270">
+<element name="IC5" library="raspnixie" package="DIP794W47P254L991H457Q8" value="MAX1771CPA+" x="63.5" y="19.05" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Unavailable" x="63.5" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Boost, Buck-Boost Regulator Positive Output Step-Up, Step-Up/Step-Down DC-DC Controller IC 8-PDIP " x="63.5" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Maxim Integrated" x="63.5" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1968,20 +1901,9 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="81.28" y="5.3975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="83.82" y="9.2075" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="T1" library="Transistor" library_urn="urn:adsk.eagle:library:16378713" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF644B" x="63.5" y="24.765" smashed="yes" rot="R180">
-<attribute name="CATEGORY" value="Transistor" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DRAIN_CURRENT" value="" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="T1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRF644B" x="63.5" y="24.765" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.5023" y="26.035" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="OPERATING_TEMP" value="" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_STATUS" value="" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SERIES" value="" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUB-CATEGORY" value="MOSFET" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="THERMALLOSS" value="" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TYPE" value="N-Channel" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULARITY" value="7" x="63.5" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="68.58" y="32.385" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="RSENSE" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="0R050" x="72.7075" y="6.35" smashed="yes">
@@ -2002,7 +1924,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="62.23" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="60.325" y="19.685" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="VR1" library="pot-hex" package="S64W-ROUND" value="5k" x="63.5" y="12.065" smashed="yes" rot="R180">
+<element name="VR1" library="raspnixie" package="S64W-ROUND" value="5k" x="63.5" y="12.065" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.8452" y="12.446" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="68.3006" y="14.986" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -2035,22 +1957,10 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="8" x="66.675" y="32.0675" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="69.315" y="34.7735" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="T2" library="Transistor" library_urn="urn:adsk.eagle:library:16378713" package="TO92" package3d_urn="urn:adsk.eagle:package:16378726/1" value="13001" x="28.575" y="26.3525" smashed="yes">
-<attribute name="CATEGORY" value="Transistor" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="IC_MAX" value="" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
+<element name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:28523/2" value="A42" x="28.575" y="26.3525" smashed="yes">
 <attribute name="NAME" x="31.75" y="25.0825" size="1.27" layer="25" ratio="10"/>
-<attribute name="OPERATING_TEMP" value="" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="PART_STATUS" value="" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="ROHS_COMPLIANT" value="" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="SERIES" value="" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="SUB-CATEGORY" value="BJT" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="THERMALLOSS" value="" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="NPN" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="0" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.75" y="25.0825" size="1.27" layer="27" ratio="10"/>
-<attribute name="VCEO_MAX" value="" x="28.575" y="26.3525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10k" x="29.845" y="31.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.7325" y="33.655" size="1.27" layer="25" rot="R270"/>
