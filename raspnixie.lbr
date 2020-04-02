@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -77,24 +77,24 @@
 <package name="ZM1000">
 <description>the ZM1000 nixie tube.
 not many in the world.</description>
-<pad name="K0" x="1.27" y="0" drill="0.6"/>
-<pad name="K3" x="-1.27" y="0" drill="0.6"/>
-<pad name="K7" x="1.27" y="-2.54" drill="0.6"/>
-<pad name="K4" x="-1.27" y="-2.54" drill="0.6"/>
-<pad name="K6" x="1.27" y="-5.08" drill="0.6"/>
-<pad name="K5" x="-1.27" y="-5.08" drill="0.6"/>
-<pad name="K9" x="1.27" y="2.54" drill="0.6"/>
-<pad name="K2" x="-1.27" y="2.54" drill="0.6"/>
-<pad name="K1" x="-1.27" y="5.08" drill="0.6"/>
-<pad name="K8" x="1.27" y="5.08" drill="0.6"/>
-<pad name="IC1" x="-3.81" y="2.54" drill="0.6"/>
-<pad name="KDP" x="3.81" y="0" drill="0.6"/>
-<pad name="A1" x="-3.81" y="-2.54" drill="0.6"/>
-<pad name="A2" x="3.81" y="-2.54" drill="0.6"/>
-<pad name="PR" x="-3.81" y="0" drill="0.6"/>
-<pad name="IC2" x="3.81" y="2.54" drill="0.6"/>
-<circle x="0" y="0" radius="6.83915625" width="0.127" layer="21"/>
-<text x="-6.35" y="-6.35" size="1.27" layer="25">&gt;NAME</text>
+<pad name="K0" x="1.27" y="0" drill="1.016"/>
+<pad name="K3" x="-1.27" y="0" drill="1.016"/>
+<pad name="K7" x="1.27" y="-2.54" drill="1.016"/>
+<pad name="K4" x="-1.27" y="-2.54" drill="1.016"/>
+<pad name="K6" x="1.27" y="-5.08" drill="1.016"/>
+<pad name="K5" x="-1.27" y="-5.08" drill="1.016"/>
+<pad name="K9" x="1.27" y="2.54" drill="1.016"/>
+<pad name="K2" x="-1.27" y="2.54" drill="1.016"/>
+<pad name="K1" x="-1.27" y="5.08" drill="1.016"/>
+<pad name="K8" x="1.27" y="5.08" drill="1.016"/>
+<pad name="IC1" x="-3.81" y="2.54" drill="1.016"/>
+<pad name="KDP" x="3.81" y="0" drill="1.016"/>
+<pad name="A1" x="-3.81" y="-2.54" drill="1.016"/>
+<pad name="A2" x="3.81" y="-2.54" drill="1.016"/>
+<pad name="PR" x="-3.81" y="0" drill="1.016"/>
+<pad name="IC2" x="3.81" y="2.54" drill="1.016"/>
+<text x="-8.89" y="-8.89" size="1.27" layer="25">&gt;NAME</text>
+<circle x="0" y="0" radius="8.980253125" width="0.127" layer="21"/>
 </package>
 <package name="INDM106101X500N" urn="urn:adsk.eagle:footprint:18309150/1">
 <description>Molded Body, 10.65 X 10.10 X 5.00 mm body
@@ -141,6 +141,20 @@ not many in the world.</description>
 <text x="0" y="3.285" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.285" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="RESM175170X700N" urn="urn:adsk.eagle:footprint:18776623/1">
+<description>Molded Body, 17.50 X 17.00 X 7.00 mm body
+&lt;p&gt;Molded Body package with body size 17.50 X 17.00 X 7.00 mm&lt;/p&gt;</description>
+<wire x1="-8.75" y1="8.5" x2="8.75" y2="8.5" width="0.12" layer="21"/>
+<wire x1="-8.75" y1="-8.5" x2="8.75" y2="-8.5" width="0.12" layer="21"/>
+<wire x1="9" y1="-8.65" x2="-9" y2="-8.65" width="0.12" layer="51"/>
+<wire x1="-9" y1="-8.65" x2="-9" y2="8.65" width="0.12" layer="51"/>
+<wire x1="-9" y1="8.65" x2="9" y2="8.65" width="0.12" layer="51"/>
+<wire x1="9" y1="8.65" x2="9" y2="-8.65" width="0.12" layer="51"/>
+<smd name="1" x="-7.5842" y="0" dx="3.8379" dy="12.2103" layer="1"/>
+<smd name="2" x="7.5842" y="0" dx="3.8379" dy="12.2103" layer="1"/>
+<text x="0" y="9.285" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-9.285" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="INDM106101X500N" urn="urn:adsk.eagle:package:18309055/1" type="model">
@@ -162,6 +176,13 @@ not many in the world.</description>
 &lt;p&gt;Crystal (HC49) package with 10.00 mm pitch (lead spacing) and 0.60 mm lead diameter with body size 17.50 X 5.25 X 18.00 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="XTALRR1000W60L1750T525H1800B"/>
+</packageinstances>
+</package3d>
+<package3d name="RESM175170X700N" urn="urn:adsk.eagle:package:18776585/1" type="model">
+<description>Molded Body, 17.50 X 17.00 X 7.00 mm body
+&lt;p&gt;Molded Body package with body size 17.50 X 17.00 X 7.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESM175170X700N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -323,6 +344,31 @@ not many in the world.</description>
 </technologies>
 </device>
 </devices>
+</deviceset>
+<deviceset name="WHC1770" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="L" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESM175170X700N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18776585/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+<spice>
+<pinmapping spiceprefix="L">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
 </deviceset>
 </devicesets>
 </library>
